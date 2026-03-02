@@ -24,10 +24,8 @@ function Main({}) {
 
   return (
     <main className="main">
-      <div className="main__about">
-        <h2 className="main__title" id="about">
-          About Me
-        </h2>
+      <div className="main__about" id="about">
+        <h2 className="main__title">About Me</h2>
         <p className="main__text">
           Hello! I'm Grecia, a passionate web developer with a love for creating
           beautiful and functional websites. With a background in biology and a
@@ -39,10 +37,8 @@ function Main({}) {
           one of my first ever dogs, Coco.
         </p>
       </div>
-      <div className="main__projects">
-        <h2 className="main__title" id="projects">
-          Projects
-        </h2>
+      <div className="main__projects" id="projects">
+        <h2 className="main__title">Projects</h2>
         <div className="main__cards">
           <ProjectCard
             title="WTWR"
@@ -87,10 +83,8 @@ function Main({}) {
           />
         </div>
       </div>
-      <div className="main__contact">
-        <h2 className="main__title" id="contact">
-          Contact
-        </h2>
+      <div className="main__contact" id="contact">
+        <h2 className="main__title">Contact</h2>
         <p className="main__text">
           Feel free to reach out to me via email at{" "}
           <a href="mailto:g3901@icloud.com">g3901@icloud.com</a>
