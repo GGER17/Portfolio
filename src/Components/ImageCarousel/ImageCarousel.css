@@ -19,6 +19,7 @@
   max-height: 300px;
   object-fit: contain;
   border-radius: 20px;
+  width: 100%;
 }
 
 .carousel__btn {

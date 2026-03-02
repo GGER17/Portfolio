@@ -2,22 +2,20 @@
   padding: 0 20px;
 }
 
-.main__about {
-  background-color: rgb(0, 0, 0, 0.4);
-}
-
 .main__title {
   margin: 80px 0 30px;
 }
 
 .main__text {
   font-size: 20px;
-  max-width: 1400;
+  max-width: 1400px;
   width: 100%;
 }
 
 .main__about {
   margin: 150px 0;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0, 0.8);
 }
 
 .main__cards {
@@ -28,12 +26,14 @@
 
 .main__contact {
   margin: 150px 0;
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 20px;
 }
 
 .main__projects {
   margin: 150px 0;
   background-color: rgb(0, 0, 0, 0.9);
+  border-radius: 20px;
 }
 
 @media (max-width: 425px) {
