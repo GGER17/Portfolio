@@ -1,0 +1,55 @@
+.main {
+  padding: 0 20px;
+}
+
+.main__about {
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.main__title {
+  margin: 80px 0 30px;
+}
+
+.main__text {
+  font-size: 20px;
+  max-width: 1400;
+  width: 100%;
+}
+
+.main__about {
+  margin: 150px 0;
+}
+
+.main__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.main__contact {
+  margin: 150px 0;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.main__projects {
+  margin: 150px 0;
+}
+
+@media (max-width: 425px) {
+  .main__cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__about {
+    margin: 100px 0;
+  }
+
+  .main__projects {
+    margin: 100px 0;
+  }
+
+  .main__contact {
+    margin: 0 0 80px;
+  }
+}
