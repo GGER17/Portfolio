@@ -24,6 +24,10 @@ I do not own or claim any rights to the music used in the project demonstration 
 
 - Video source: https://www.youtube.com/watch?v=hceNBCnOx44
 
+## Future implementations.
+- Choose between bubbles or squares backgrounds.
+- Adding an about me video.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
