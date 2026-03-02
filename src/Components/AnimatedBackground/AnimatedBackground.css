@@ -8,19 +8,18 @@
   pointer-events: none;
 }
 
-.bg-square {
+/*-square {
   position: absolute;
   backdrop-filter: blur(8px);
   filter: blur(2px);
   transition: background-color 2s ease;
   border: 3px white;
-}
+}*/
 
 .bg-bubble {
   position: absolute;
   border-radius: 50%;
   z-index: -1;
-  /* Parent has no blur, so the outer ring stays sharp */
 }
 
 /* 1. THE OUTER COLORFUL RING (Sharp) */
@@ -44,7 +43,6 @@
   mask-composite: exclude;
 }
 
-/* 2. THE SMALLER INNER RING (Light and Fuzzy) */
 /* 2. THE BUBBLE HIGHLIGHT (Small, Offset, and Fuzzy) */
 .bg-bubble::after {
   content: "";
@@ -58,12 +56,12 @@
 
   border-radius: 50%;
 
-  /* 2. Color: Mixing your purple with white for a "lit" look */
+  /* 2. Color: Mixing  purple with white for a "lit" look */
   background: radial-gradient(
     circle at center,
     rgba(255, 255, 255, 0.6) 0%,
-    /* Bright white center */ rgba(223, 119, 255, 0.4) 40%,
-    /* Your purple hue */ rgba(223, 119, 255, 0) 100% /* Fades to transparent */
+    rgba(223, 119, 255, 0.4) 40%,
+    rgba(223, 119, 255, 0) 100%
   );
 
   /* 3. Softness & Tilt */
