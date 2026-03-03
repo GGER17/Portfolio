@@ -1,6 +1,5 @@
 .carousel {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -8,17 +7,18 @@
 .carousel__image-container {
   display: flex;
   justify-content: center;
-  max-height: 320px;
-  height: 100%;
+  align-items: center;
+  height: 420px;
   max-width: 700px;
   width: 100%;
+  margin: 20px 0 0;
 }
 
 .carousel__image {
   max-width: 700px;
   max-height: 300px;
+  height: 100%;
   object-fit: contain;
-  border-radius: 20px;
   width: 100%;
 }
 
@@ -88,7 +88,6 @@
 }
 
 .modal-arrow {
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
